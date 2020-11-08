@@ -1,0 +1,1434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01741FF78BD7229F1BBEA2FAA9D5D4B4 /* UserTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF1010BDD3CECBE9C5CAB45ABF9C75 /* UserTheme.swift */; };
+		07252E9AC17882D2B1EA4168AFCCE740 /* tomorrow-night-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FA7047BA4254B1368381EE4900C9E52A /* tomorrow-night-blue.min.css */; };
+		08EFCDAA97DF13161E4256DDC02F4DAA /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EFCEA9AFB2325581686DF52AFBA922C4 /* solarized-dark.min.css */; };
+		0A0F1E2B7C7E54CC8635EF4371F48FE9 /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 914BE4E49E3260B13E44F88F815028CA /* ocean.min.css */; };
+		0BA6E56E894728D59DEF66A4C63D9A7A /* atelier-savanna-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 63C32A847A5C8018FE7C5431DFB615EA /* atelier-savanna-light.min.css */; };
+		0DC3D15F4FAA1853B7B377900BCA417E /* atelier-sulphurpool-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = ABCDE7C595DCE1C98BA8F3DA8CA51FD2 /* atelier-sulphurpool-light.min.css */; };
+		117167EFE5268CA55A50FE556EC42E9E /* github.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7E574C38B61A5EE6AC9FEC158B62E4F7 /* github.min.css */; };
+		12EA1FDBC73D3E6FE5DED3A5AF6611D4 /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E7061C017AD4506C91C97B6472306B36 /* dracula.min.css */; };
+		16266B8CDC2405C2441F12BF437FABED /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7027B19504AE8CA17CA35C5B20A6DE /* ThemeColor.swift */; };
+		181C81C739F806BCDD6F760FD30A01FB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A2A9170E431A7D1D4050BFEA17B84E /* CoreServices.framework */; };
+		19AF00486DE96979A194FA58C0840695 /* gml.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D111BDBE9D7BAD9EBA6626F31AD8B8D4 /* gml.min.css */; };
+		19E9D2DD82F6AA80DB0F16BD6FB7C540 /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 11269B23D01879A6300066A5865ED0CA /* tomorrow-night-eighties.min.css */; };
+		1C28C1D3C9A5A148C552451C097C51F1 /* ascetic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A6C97BEC4B31606099FDC76295C91FFB /* ascetic.min.css */; };
+		1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 821A363BD0A6853F709719EEA7E3177D /* GCDAsyncSocket.m */; };
+		1CA2D2B63B73621DBAC7CFEB380CFDF6 /* isbl-editor-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 96C41CACF87C684A6D175833B3CB1531 /* isbl-editor-light.min.css */; };
+		21B4CDC6FD90007EF9A2992C9C41DC49 /* color-brewer.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 071A8FBAEC535216B4D1B69A1C4E74FF /* color-brewer.min.css */; };
+		21E9C1635BED58B8B49774AB168CDC9D /* dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCF12F073BDB2E7E251A29BD3DC3F6 /* dark.min.css */; };
+		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EA45956E26548CBF5B451C0791CA86 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		295CFC1BD4613F4AD34DD8229EF50F93 /* atom-one-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C9AEE962C1E83A448D28E3EEDDFFE65C /* atom-one-light.min.css */; };
+		2E2317974A739EE7DD7D7947E6567203 /* macOSThemeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5530D0067E2E1FEB9E338CE03096D935 /* macOSThemeKit-dummy.m */; };
+		2E7CA3EAF445B41806F1C1BC057E628E /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 00A57162F0C2E51281E78C3B2CA22CFE /* foundation.min.css */; };
+		3080BAC39D886FFDFEBFB19ED7467669 /* HTMLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D3B6B81B1F135219CAACC61238008 /* HTMLUtils.swift */; };
+		30A1A9F011DCCB5881FB72D9C89E14A3 /* railscasts.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0C033B170CB669F84D0BF30B36DA470D /* railscasts.min.css */; };
+		3406709367A4D069D707E6343D9B499F /* sunburst.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5E1AFAD3DA15344E8007E61437F0CC08 /* sunburst.min.css */; };
+		3CAA6E5219F3997A859577B688E9365A /* routeros.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 032850D3D2DD6CF1EC5BBB1BA1775292 /* routeros.min.css */; };
+		3F5BF0A034ED0E363A5CDD05C36EA2A3 /* hopscotch.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F863D2331AB3D475CC65313ACD7A05B /* hopscotch.min.css */; };
+		40163CB38A022C5517CFDBD7F6CABEFF /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDF433E7D6A00DB04ED2E67DFD5D90 /* atelier-cave-dark.min.css */; };
+		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E93AE830E25D2E3FCD5A2632A48BC63A /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		416DDE6DA332A7F5F27538DF14390B80 /* qtcreator_light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4154DA8B902C42AA1C41AC970AE93756 /* qtcreator_light.min.css */; };
+		42FF8F423095C1B79155779D05C792CA /* zenburn.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4EE7787C23EC155DE39781B0803FC56C /* zenburn.min.css */; };
+		43261F09C1701861AB9117155ED4FAA2 /* ThemeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8FA241BB2CB28608F44BD634CE863E /* ThemeGradient.swift */; };
+		437503877C37313F6544CB53D3209D92 /* atelier-lakeside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 206E4ADE3D3AC89E272F7D8ED64DE396 /* atelier-lakeside-dark.min.css */; };
+		45698778B5D965CFB9C43F683BF6625A /* github-gist.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A2ADC00E867B8DFEA57B163556EE190F /* github-gist.min.css */; };
+		4596D3429AA10785AA80E6420FA84D84 /* SystemTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6AA411EF8A7B06E461F64457BE269E /* SystemTheme.swift */; };
+		475002A7B711CD996CEDD17CCAA93099 /* Highlightr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CEEFB49AB2CA7EAF614FE0EF2C69E /* Highlightr.swift */; };
+		48385935B0709D5AD3C97E3B251A20CF /* solarized-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FA09D7AA888F30CFBDA80BF9D4A529D0 /* solarized-light.min.css */; };
+		48443290BFF0A6407DA16C08F28CE2CB /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF99DB822C7E179B772E1E589A5FABD /* ThemeManager.swift */; };
+		4F246508449CC33854B7E1CC61699D9D /* shades-of-purple.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 81E6E6546AFB18E4EFE7A4638C19A822 /* shades-of-purple.min.css */; };
+		509AAB38C4407B8DF620D3364EE6860D /* docco.min.css in Resources */ = {isa = PBXBuildFile; fileRef = F29401ADB62596BD262C0DC907B347EF /* docco.min.css */; };
+		5958EA9310DE6034B00DFE8919916758 /* tomorrow-night.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A36E6FBDFD9A0B5721D8C531A864056 /* tomorrow-night.min.css */; };
+		5C1DB39ED6A07B9AF4F5B29B51DDD3B1 /* ir-black.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 08D8E3AEB9AA7BAD8407BF21F3864944 /* ir-black.min.css */; };
+		5E2AC9DEBC506C976E544B0566B61DF0 /* isbl-editor-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3F2EBF5095C519795E18C78F9770CFF5 /* isbl-editor-dark.min.css */; };
+		5E959D1F418B243F915263BF97910AA0 /* NSWindow+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB5771780E561F92CF7753D27250F45 /* NSWindow+ThemeKit.swift */; };
+		60B58C3A892A44EB44A39B84C4D1DF07 /* NSObject+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615A89753C2FE82FACEB1B4EBFE1861 /* NSObject+ThemeKit.swift */; };
+		6417A4EF60DF49C9009251F590DE316B /* NotificationName+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53994CEB72503E65AFBA4FEAA6B63E /* NotificationName+ThemeKit.swift */; };
+		682D476D4804A5F7BFAE75EE827D2638 /* codepen-embed.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D205A3544C681FF2B0FE632B957585C8 /* codepen-embed.min.css */; };
+		69B08E1E5A144ECD1E4FF722E8ACECE3 /* lightfair.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C14D6D0759BB5CD3819A98DC6EC22406 /* lightfair.min.css */; };
+		69F59DD09E155F745D9F2ABB3A64EBF7 /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7A4824DF73C5F962C30D8C0BE6004A07 /* agate.min.css */; };
+		6C0D9FD5DDB88A298F3C26883488E92A /* school-book.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A4E6E097E01E0F410D8D8DC41E31D4DE /* school-book.min.css */; };
+		6C3216186CB3EE026FD7B7E35CD715C6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FDD25DB5C4E785F26E0B3CECD7189C /* Theme.swift */; };
+		6C91B4F117FFA093F740F975C33CB2B8 /* pojoaque.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0EC323828C229CBDF05F3EA5C555868F /* pojoaque.min.css */; };
+		6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4199DA9E788B60470DCB2AC9B21261E7 /* GCDAsyncUdpSocket.m */; };
+		70866031BBB9398A61E0FCC5DA0E4228 /* atom-one-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 30C77DB67AE22D908B3914D053379C91 /* atom-one-dark.min.css */; };
+		70B30C189B53A7E694253E32F1CFD909 /* atelier-estuary-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 61858A8D1A145A6700C5865D53774BFD /* atelier-estuary-light.min.css */; };
+		73C1E282E99C1DB3FDFCD473B922EAD2 /* Pods-Bagel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AE19FA33C4F66CD5387E410194201F /* Pods-Bagel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		746B9C316EDD28F601A99C13AEC63F24 /* Highlightr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C54ABE63051DD2AD5520F135CD6E92D9 /* Highlightr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		764C13BFA23196755AE16C23C407B1B2 /* vs.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4039B45ED10F7F7C7905830D0CE33223 /* vs.min.css */; };
+		795CB64962CB2EDC5AC8A1F300F0E847 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7200C3A9E104B8FB460A37245767264F /* Cocoa.framework */; };
+		7C4456EC5A287CA752A470219B56258C /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F46F6914075674BE1A33178979EAF8B /* LightTheme.swift */; };
+		7D6D4B1D849EA06229626399F32C64E9 /* tomorrow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 62404DD3C1E9BA3645C24F38D3874CD1 /* tomorrow.min.css */; };
+		7E24A64B126B2E84349534D7D668AE30 /* paraiso-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 902EDCD78CBF7C0B5FFA15B4957FA0D6 /* paraiso-light.min.css */; };
+		7F3C85EBC1F3F2ECE4FF6453A3522BAC /* tomorrow-night-bright.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6CE7177EE727F48799743289B3E2B9AC /* tomorrow-night-bright.min.css */; };
+		7F70002E8C0DF2BF8A9F5D47A924AD63 /* idea.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FD4951635456D0E5DE80389E57105293 /* idea.min.css */; };
+		7F8966A5A1A75985324352D26F7C75BE /* NSImage+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23348BBEED104B17DA5A14AEDA64ABA /* NSImage+ThemeKit.swift */; };
+		80633AE38B7FFC76DE34B87A63820527 /* monokai-sublime.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9B3522AA58AB1C611770AA1A0925CDA8 /* monokai-sublime.min.css */; };
+		81B150D610C43FBAA49FD85F086BE90A /* atelier-plateau-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 70B4057B388D9D3D405FDE969935CE7C /* atelier-plateau-dark.min.css */; };
+		851CA8887588E0673A75568EBF35BCA3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255653986A133D9B58637E01817CCC1C /* Common.swift */; };
+		8874C6FFD6003A48E1879E3EEA1C35B1 /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB9122A3127040264147B86CFF5504 /* hybrid.min.css */; };
+		89453DE5FF4129D4AEFCDB48E5193D98 /* atelier-savanna-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4B92EBD445C62D5DBDC02057AD59529D /* atelier-savanna-dark.min.css */; };
+		8D5D26A5B70AA4D55D6BE58745D76E5A /* atelier-seaside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 086E747D9509B29C07ED9681012125FE /* atelier-seaside-light.min.css */; };
+		8E833467B449C5AA8EB04A12B5674FC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7200C3A9E104B8FB460A37245767264F /* Cocoa.framework */; };
+		92A6F8C6BEB1258C14679DD3C88868CB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BF0C499CEC55602E33CAB49BF6F1D8 /* AppKit.framework */; };
+		9318C9B4D1D5ECBA019E0E71A88BD96B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7200C3A9E104B8FB460A37245767264F /* Cocoa.framework */; };
+		94211506B10F74C3E3ED065E382BAB8B /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 50F9C1545769576E318B4743F4116446 /* purebasic.min.css */; };
+		945DCA340BE155923A9265A5F44FBAC7 /* xt256.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 42C2A5C6F82385DC750FA945075C9248 /* xt256.min.css */; };
+		958AD0EFC163CB32EA6745A5B5E9692D /* atelier-estuary-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 644D312E5FEA53754789976A46D01A5C /* atelier-estuary-dark.min.css */; };
+		963C85C58CE21ACF53AF1164C41DBF44 /* an-old-hope.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 80C6DCAF8B278D4C12221150E7C67B7C /* an-old-hope.min.css */; };
+		98A56F4FB4306A4281F6426384A9F982 /* rainbow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 603CE3C95E13FC51BDF6B86384809E4C /* rainbow.min.css */; };
+		9BBCACB93C3591CC2C05F032F545CBAD /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 98F0E0AC46B74F6D1A2E04FDE4752088 /* atelier-dune-dark.min.css */; };
+		9BFAD43FAB646FB257EC1BAB5B961D6F /* atelier-seaside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 8583BFED9D5F040FAE805CD95F6D0F88 /* atelier-seaside-dark.min.css */; };
+		9DA2467CA16B065DA4246B43205B0496 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015889573F7F0ED3429B3252304337B /* Theme.swift */; };
+		9DEA816E3C0C45754C0C55721B5C5A3E /* mono-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = B56A61AB9978280C3E4B6FC6D2B91963 /* mono-blue.min.css */; };
+		9EFFA7B5F6A011C8629CB7F3EC3E580B /* CodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584406C4F6851CAC94E1C0D4AE8832D9 /* CodeAttributedString.swift */; };
+		A135726B17D46E531FF97ED1A5913B1E /* atelier-forest-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 17005C227F5108E19AF7C042C77174DC /* atelier-forest-light.min.css */; };
+		A3E3A956296D2642CC84D07F65D277A5 /* atelier-sulphurpool-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A7E08A479D067FF455C766E410B732E9 /* atelier-sulphurpool-dark.min.css */; };
+		A623E240622352B0B89729F99971540A /* gruvbox-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = F1FEDD3D42BBEE6A9080E6A734174747 /* gruvbox-dark.min.css */; };
+		A9D9D0E8198E55FF5AD536AB433F90D5 /* gruvbox-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D798AC1F889DBEA37CA4F995FBFC9 /* gruvbox-light.min.css */; };
+		AA5C32D97513834B0735E998633E5573 /* Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61682281EAE185E8F70019805A09084E /* Shims.swift */; };
+		ABE2CF7FE359B07D646CBBE2C5A6B147 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF6C50177BABC5F475F80AA9926B440 /* Security.framework */; };
+		AEF905BC4B6BE00498EECD43CB24A4E5 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149C3AAD705C9CF23099C7930D14A4E5 /* DarkTheme.swift */; };
+		B04A04F3D9EAE6935B55A4CB7404A43B /* atelier-forest-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 04A8B49322F43A9308AF36BF708856CC /* atelier-forest-dark.min.css */; };
+		B152AF66EB22A28C60540A313BFCD76E /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 546A3587DC888E3BBE9494465981C8D0 /* atelier-heath-light.min.css */; };
+		B187C749298B8BB4253961040E4F86C1 /* atelier-heath-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 20AB23DE6EF096A3B1B163539F93E878 /* atelier-heath-dark.min.css */; };
+		B188F96319DB46B13DF9ADEC82168F3B /* ThemeManager+ObjectiveC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A6D71B1A41F535EDD12C8FD56D86E /* ThemeManager+ObjectiveC.swift */; };
+		B22D8097FEA61CBB9A6094D4B60DC505 /* androidstudio.min.css in Resources */ = {isa = PBXBuildFile; fileRef = CB0BF481DE009BF244B24A93B4E518DC /* androidstudio.min.css */; };
+		B322E14EE5D4B1F203C3C543F285C418 /* paraiso-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 40AD0A8A345A657FA25665BAAC279952 /* paraiso-dark.min.css */; };
+		B5A936234CA43395B99DE4EEB0AAA348 /* NSView+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572894BB49FB4B7EF00ABBB055F1D42E /* NSView+ThemeKit.swift */; };
+		B92B737A5B071B1F806891EBF6C2A577 /* Thread+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43FCF5D5804E95EFA50CA602D9CE99 /* Thread+ThemeKit.swift */; };
+		B94B2009745A0A54F9C273CB2FD002C7 /* String+Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1C8B42601D55BBC49B6F67CA45D0E /* String+Substring.swift */; };
+		BC995ADB8550B0B8CB8B53AC8BC643EC /* qtcreator_dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4B47CA6E395169516627AE658C19203D /* qtcreator_dark.min.css */; };
+		BE09CC034675464469183909970F2460 /* obsidian.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 414A2C8FC1B8D2EE24FC03ED93234A3E /* obsidian.min.css */; };
+		BEDB97D9433996F6E7A8702A985EE359 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7200C3A9E104B8FB460A37245767264F /* Cocoa.framework */; };
+		BF1517DB55CDFFBDBA8EFD4335FB0EE1 /* googlecode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 7C3CB90A38027BBC93BF537D65DC0AA0 /* googlecode.min.css */; };
+		BFE400F171DC60C014F13D691FD61FA8 /* atelier-dune-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = BA2148C4E6A52157F54001D447147BAF /* atelier-dune-light.min.css */; };
+		C0FA571123133CCBB85CC5DB8A68D89B /* a11y-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EFD678D3D7F15FD8FF853C188C01542E /* a11y-light.min.css */; };
+		C2802A0975B9AFF772715A8BCC89128D /* grayscale.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E73AE3097A914DE0CD8F6BE308CF68EE /* grayscale.min.css */; };
+		C2C19A279E190C14972634D249E96F45 /* darcula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 37556AE1824D4795BB17266E1751B800 /* darcula.min.css */; };
+		C2D65EAE8886AC3A1EF396D513DFA37F /* atelier-plateau-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC358DA5F9DF3378D6F000566C5588 /* atelier-plateau-light.min.css */; };
+		C5E4135327693EACA18256193F2DC95B /* nord.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C3AB47E79DE62C67B2AE14F02D0FCF12 /* nord.min.css */; };
+		C8AAAAA899223C4342B183E664284CED /* kimbie.light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 738BAFC797FAB2A47AF0FC3E97B534C5 /* kimbie.light.min.css */; };
+		C9537AAFF97CBF25AD79A10E8A802253 /* vs2015.min.css in Resources */ = {isa = PBXBuildFile; fileRef = C3117AA77B19B5C6A2CBC183C6F4B5A3 /* vs2015.min.css */; };
+		CAA35085971546940E29E57437163E16 /* Pods-Bagel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 576CD5FDF11A95FE4D62A43958AA9F2C /* Pods-Bagel-dummy.m */; };
+		CAF6C0CC4CA79C9AFB0506EC45C6E94B /* default.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 0AEF5ECA0FCC73C7F9A9E10D27311866 /* default.min.css */; };
+		CD5468196E7DE88F3C6531D76F480195 /* arduino-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FD3525F8042128FD71FC8C9255BC0D00 /* arduino-light.min.css */; };
+		CFCD464D6E4B76367A35F6752630BAA3 /* Highlightr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33AFA0E808D389546A79FBE5AC49B97 /* Highlightr-dummy.m */; };
+		D085D6D9A8787E53B5E144F1C35A41A0 /* ThemeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD4F8EA98EAC9C893A8A0181CBE393 /* ThemeImage.swift */; };
+		D25CCB428F60F230FC80C6D19DE084CF /* far.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 4594322B644261686341076242EF756D /* far.min.css */; };
+		DA46CE544774BB49772D545061DF00D9 /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = D6A69BBE46F9827FC4894CD18D8D9048 /* monokai.min.css */; };
+		DBBCA4EA831AE6BAAB632D098314DD05 /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 116809CB42618DC7B08C98425EF5C064 /* darkula.min.css */; };
+		DC75091757AF38C5E3F3A361220B8679 /* NSColor+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC344ECAB9F930EB4D86DB3C7C8841 /* NSColor+ThemeKit.swift */; };
+		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E66895190B1D43B8A997CE61910EF2 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A063DA328CD24F40F10E3E73EE81F1 /* NSDictionary+UserTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C33375F7307928B3B43A1FB2A82316 /* NSDictionary+UserTheme.swift */; };
+		E79E4C6F654E7373059D62E4F2432C91 /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 083C988C5579F48E787512FFB436F815 /* magula.min.css */; };
+		E7E8411A877D5374B0BE09D7856FC0CF /* atelier-lakeside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 142B8A001F43024ADA55B0E98DCA89D5 /* atelier-lakeside-light.min.css */; };
+		EA0C2301A8F1A0DA9BD6D299CA10080A /* atelier-cave-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3C6977306707D47AA68E3566A0EB7435 /* atelier-cave-light.min.css */; };
+		EBD7F5BCF2EC0163384B1D5873DCC762 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 789F892E132E7B0C3D766E2B7F9F9171 /* highlight.min.js */; };
+		EDDC7DAE72472D6C48A3E3ECB654B1E6 /* xcode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 5BD5CF24A6AE29C062900F6C68397AFB /* xcode.min.css */; };
+		F05E65795E43FCD2F3CAF46C36F4F132 /* kimbie.dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C2687E7169C775FF2ADBC0A09C064 /* kimbie.dark.min.css */; };
+		F43C3A80AE7A7469CB144208F960AF5E /* atom-one-dark-reasonable.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 57224172D4D199A009DCF14B5E3D097A /* atom-one-dark-reasonable.min.css */; };
+		F58B2FD12551D913C1D83769A5DCA56E /* macOSThemeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 924A512688D826C3D25FCECAB9A8D04E /* macOSThemeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E0A47D8491EF135AD8E3B5E54C2AD6 /* arta.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2567FAB3D3E7F321B1ABD57C4D58AF8A /* arta.min.css */; };
+		FBAB4EB203A6009138A1C1E2BB7888A1 /* a11y-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 64B8D971EF9A78CA0F37ECF06C5B8CCF /* a11y-dark.min.css */; };
+		FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D44ED52FA3535B99537BD4DD2774BE61 /* CocoaAsyncSocket-dummy.m */; };
+		FDE2CCCCBC20A84591FCABA3A9A2EA0F /* brown-paper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 75516FCA891B08238CF5AE39105F3E98 /* brown-paper.min.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		448EC224FB01D5B67D895622DA7EBD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0DFE582E64AE7298C59241B7B610B04;
+			remoteInfo = Highlightr;
+		};
+		6A9DD3C8299E29257FFEAF32C9D494F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F2F8BE9ECE2B04C6D9CF9295316D0C1;
+			remoteInfo = macOSThemeKit;
+		};
+		A6779E2A02AA3D9EB870BF4164EB051E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A57162F0C2E51281E78C3B2CA22CFE /* foundation.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = foundation.min.css; path = Pod/Assets/styles/foundation.min.css; sourceTree = "<group>"; };
+		02C1C8B42601D55BBC49B6F67CA45D0E /* String+Substring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Substring.swift"; path = "Sources/String+Substring.swift"; sourceTree = "<group>"; };
+		032850D3D2DD6CF1EC5BBB1BA1775292 /* routeros.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = routeros.min.css; path = Pod/Assets/styles/routeros.min.css; sourceTree = "<group>"; };
+		04A8B49322F43A9308AF36BF708856CC /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-forest-dark.min.css"; path = "Pod/Assets/styles/atelier-forest-dark.min.css"; sourceTree = "<group>"; };
+		071A8FBAEC535216B4D1B69A1C4E74FF /* color-brewer.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "color-brewer.min.css"; path = "Pod/Assets/styles/color-brewer.min.css"; sourceTree = "<group>"; };
+		07AE19FA33C4F66CD5387E410194201F /* Pods-Bagel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bagel-umbrella.h"; sourceTree = "<group>"; };
+		083C988C5579F48E787512FFB436F815 /* magula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = magula.min.css; path = Pod/Assets/styles/magula.min.css; sourceTree = "<group>"; };
+		086E747D9509B29C07ED9681012125FE /* atelier-seaside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-seaside-light.min.css"; path = "Pod/Assets/styles/atelier-seaside-light.min.css"; sourceTree = "<group>"; };
+		08D8E3AEB9AA7BAD8407BF21F3864944 /* ir-black.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "ir-black.min.css"; path = "Pod/Assets/styles/ir-black.min.css"; sourceTree = "<group>"; };
+		0AEF5ECA0FCC73C7F9A9E10D27311866 /* default.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = default.min.css; path = Pod/Assets/styles/default.min.css; sourceTree = "<group>"; };
+		0B7027B19504AE8CA17CA35C5B20A6DE /* ThemeColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeColor.swift; path = Sources/ThemeColor.swift; sourceTree = "<group>"; };
+		0BEDF433E7D6A00DB04ED2E67DFD5D90 /* atelier-cave-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-cave-dark.min.css"; path = "Pod/Assets/styles/atelier-cave-dark.min.css"; sourceTree = "<group>"; };
+		0C033B170CB669F84D0BF30B36DA470D /* railscasts.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = railscasts.min.css; path = Pod/Assets/styles/railscasts.min.css; sourceTree = "<group>"; };
+		0EC323828C229CBDF05F3EA5C555868F /* pojoaque.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = pojoaque.min.css; path = Pod/Assets/styles/pojoaque.min.css; sourceTree = "<group>"; };
+		11269B23D01879A6300066A5865ED0CA /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "tomorrow-night-eighties.min.css"; path = "Pod/Assets/styles/tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		116809CB42618DC7B08C98425EF5C064 /* darkula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = darkula.min.css; path = Pod/Assets/styles/darkula.min.css; sourceTree = "<group>"; };
+		142B8A001F43024ADA55B0E98DCA89D5 /* atelier-lakeside-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-lakeside-light.min.css"; path = "Pod/Assets/styles/atelier-lakeside-light.min.css"; sourceTree = "<group>"; };
+		149C3AAD705C9CF23099C7930D14A4E5 /* DarkTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DarkTheme.swift; path = Sources/DarkTheme.swift; sourceTree = "<group>"; };
+		17005C227F5108E19AF7C042C77174DC /* atelier-forest-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-forest-light.min.css"; path = "Pod/Assets/styles/atelier-forest-light.min.css"; sourceTree = "<group>"; };
+		1DBB9122A3127040264147B86CFF5504 /* hybrid.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = hybrid.min.css; path = Pod/Assets/styles/hybrid.min.css; sourceTree = "<group>"; };
+		206E4ADE3D3AC89E272F7D8ED64DE396 /* atelier-lakeside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-lakeside-dark.min.css"; path = "Pod/Assets/styles/atelier-lakeside-dark.min.css"; sourceTree = "<group>"; };
+		20AB23DE6EF096A3B1B163539F93E878 /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-heath-dark.min.css"; path = "Pod/Assets/styles/atelier-heath-dark.min.css"; sourceTree = "<group>"; };
+		255653986A133D9B58637E01817CCC1C /* Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Sources/Common.swift; sourceTree = "<group>"; };
+		2567FAB3D3E7F321B1ABD57C4D58AF8A /* arta.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = arta.min.css; path = Pod/Assets/styles/arta.min.css; sourceTree = "<group>"; };
+		2C53994CEB72503E65AFBA4FEAA6B63E /* NotificationName+ThemeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationName+ThemeKit.swift"; path = "Sources/NotificationName+ThemeKit.swift"; sourceTree = "<group>"; };
+		2D4D798AC1F889DBEA37CA4F995FBFC9 /* gruvbox-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "gruvbox-light.min.css"; path = "Pod/Assets/styles/gruvbox-light.min.css"; sourceTree = "<group>"; };
+		2FF99DB822C7E179B772E1E589A5FABD /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = Sources/ThemeManager.swift; sourceTree = "<group>"; };
+		30C77DB67AE22D908B3914D053379C91 /* atom-one-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atom-one-dark.min.css"; path = "Pod/Assets/styles/atom-one-dark.min.css"; sourceTree = "<group>"; };
+		35EF954F53A87FDB15378691A8C307BE /* macOSThemeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOSThemeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37556AE1824D4795BB17266E1751B800 /* darcula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = darcula.min.css; path = Pod/Assets/styles/darcula.min.css; sourceTree = "<group>"; };
+		391BA750F3D8065E8CD22931F12AC945 /* macOSThemeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "macOSThemeKit-Info.plist"; sourceTree = "<group>"; };
+		3B9C2687E7169C775FF2ADBC0A09C064 /* kimbie.dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = kimbie.dark.min.css; path = Pod/Assets/styles/kimbie.dark.min.css; sourceTree = "<group>"; };
+		3C6977306707D47AA68E3566A0EB7435 /* atelier-cave-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-cave-light.min.css"; path = "Pod/Assets/styles/atelier-cave-light.min.css"; sourceTree = "<group>"; };
+		3F2EBF5095C519795E18C78F9770CFF5 /* isbl-editor-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "isbl-editor-dark.min.css"; path = "Pod/Assets/styles/isbl-editor-dark.min.css"; sourceTree = "<group>"; };
+		4039B45ED10F7F7C7905830D0CE33223 /* vs.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = vs.min.css; path = Pod/Assets/styles/vs.min.css; sourceTree = "<group>"; };
+		40AD0A8A345A657FA25665BAAC279952 /* paraiso-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "paraiso-dark.min.css"; path = "Pod/Assets/styles/paraiso-dark.min.css"; sourceTree = "<group>"; };
+		414A2C8FC1B8D2EE24FC03ED93234A3E /* obsidian.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = obsidian.min.css; path = Pod/Assets/styles/obsidian.min.css; sourceTree = "<group>"; };
+		4154DA8B902C42AA1C41AC970AE93756 /* qtcreator_light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = qtcreator_light.min.css; path = Pod/Assets/styles/qtcreator_light.min.css; sourceTree = "<group>"; };
+		415A07C0E9BA340F08002AA1B913ADC1 /* Highlightr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highlightr.debug.xcconfig; sourceTree = "<group>"; };
+		4199DA9E788B60470DCB2AC9B21261E7 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		42C2A5C6F82385DC750FA945075C9248 /* xt256.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = xt256.min.css; path = Pod/Assets/styles/xt256.min.css; sourceTree = "<group>"; };
+		4594322B644261686341076242EF756D /* far.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = far.min.css; path = Pod/Assets/styles/far.min.css; sourceTree = "<group>"; };
+		4B47CA6E395169516627AE658C19203D /* qtcreator_dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = qtcreator_dark.min.css; path = Pod/Assets/styles/qtcreator_dark.min.css; sourceTree = "<group>"; };
+		4B92EBD445C62D5DBDC02057AD59529D /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-savanna-dark.min.css"; path = "Pod/Assets/styles/atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
+		4EC69F616CF81510A5F0A1F389511CDD /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		4EE7787C23EC155DE39781B0803FC56C /* zenburn.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = zenburn.min.css; path = Pod/Assets/styles/zenburn.min.css; sourceTree = "<group>"; };
+		4F863D2331AB3D475CC65313ACD7A05B /* hopscotch.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = hopscotch.min.css; path = Pod/Assets/styles/hopscotch.min.css; sourceTree = "<group>"; };
+		50F9C1545769576E318B4743F4116446 /* purebasic.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = purebasic.min.css; path = Pod/Assets/styles/purebasic.min.css; sourceTree = "<group>"; };
+		546A3587DC888E3BBE9494465981C8D0 /* atelier-heath-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-heath-light.min.css"; path = "Pod/Assets/styles/atelier-heath-light.min.css"; sourceTree = "<group>"; };
+		5530D0067E2E1FEB9E338CE03096D935 /* macOSThemeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "macOSThemeKit-dummy.m"; sourceTree = "<group>"; };
+		57224172D4D199A009DCF14B5E3D097A /* atom-one-dark-reasonable.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atom-one-dark-reasonable.min.css"; path = "Pod/Assets/styles/atom-one-dark-reasonable.min.css"; sourceTree = "<group>"; };
+		572894BB49FB4B7EF00ABBB055F1D42E /* NSView+ThemeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+ThemeKit.swift"; path = "Sources/NSView+ThemeKit.swift"; sourceTree = "<group>"; };
+		576CD5FDF11A95FE4D62A43958AA9F2C /* Pods-Bagel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bagel-dummy.m"; sourceTree = "<group>"; };
+		584406C4F6851CAC94E1C0D4AE8832D9 /* CodeAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeAttributedString.swift; path = Pod/Classes/CodeAttributedString.swift; sourceTree = "<group>"; };
+		58BF0C499CEC55602E33CAB49BF6F1D8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A36E6FBDFD9A0B5721D8C531A864056 /* tomorrow-night.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "tomorrow-night.min.css"; path = "Pod/Assets/styles/tomorrow-night.min.css"; sourceTree = "<group>"; };
+		5BD5CF24A6AE29C062900F6C68397AFB /* xcode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = xcode.min.css; path = Pod/Assets/styles/xcode.min.css; sourceTree = "<group>"; };
+		5DCC358DA5F9DF3378D6F000566C5588 /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-plateau-light.min.css"; path = "Pod/Assets/styles/atelier-plateau-light.min.css"; sourceTree = "<group>"; };
+		5E1AFAD3DA15344E8007E61437F0CC08 /* sunburst.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = sunburst.min.css; path = Pod/Assets/styles/sunburst.min.css; sourceTree = "<group>"; };
+		603CE3C95E13FC51BDF6B86384809E4C /* rainbow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = rainbow.min.css; path = Pod/Assets/styles/rainbow.min.css; sourceTree = "<group>"; };
+		61682281EAE185E8F70019805A09084E /* Shims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shims.swift; path = Pod/Classes/Shims.swift; sourceTree = "<group>"; };
+		61858A8D1A145A6700C5865D53774BFD /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-estuary-light.min.css"; path = "Pod/Assets/styles/atelier-estuary-light.min.css"; sourceTree = "<group>"; };
+		62404DD3C1E9BA3645C24F38D3874CD1 /* tomorrow.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = tomorrow.min.css; path = Pod/Assets/styles/tomorrow.min.css; sourceTree = "<group>"; };
+		63C32A847A5C8018FE7C5431DFB615EA /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-savanna-light.min.css"; path = "Pod/Assets/styles/atelier-savanna-light.min.css"; sourceTree = "<group>"; };
+		644D312E5FEA53754789976A46D01A5C /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-estuary-dark.min.css"; path = "Pod/Assets/styles/atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
+		64B8D971EF9A78CA0F37ECF06C5B8CCF /* a11y-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "a11y-dark.min.css"; path = "Pod/Assets/styles/a11y-dark.min.css"; sourceTree = "<group>"; };
+		6A980122FE140A3515CDF07263D6E864 /* Pods-Bagel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bagel.release.xcconfig"; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE7177EE727F48799743289B3E2B9AC /* tomorrow-night-bright.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "tomorrow-night-bright.min.css"; path = "Pod/Assets/styles/tomorrow-night-bright.min.css"; sourceTree = "<group>"; };
+		6F46F6914075674BE1A33178979EAF8B /* LightTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightTheme.swift; path = Sources/LightTheme.swift; sourceTree = "<group>"; };
+		70B4057B388D9D3D405FDE969935CE7C /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-plateau-dark.min.css"; path = "Pod/Assets/styles/atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
+		7200C3A9E104B8FB460A37245767264F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		738BAFC797FAB2A47AF0FC3E97B534C5 /* kimbie.light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = kimbie.light.min.css; path = Pod/Assets/styles/kimbie.light.min.css; sourceTree = "<group>"; };
+		742CEEFB49AB2CA7EAF614FE0EF2C69E /* Highlightr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlightr.swift; path = Pod/Classes/Highlightr.swift; sourceTree = "<group>"; };
+		75516FCA891B08238CF5AE39105F3E98 /* brown-paper.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "brown-paper.min.css"; path = "Pod/Assets/styles/brown-paper.min.css"; sourceTree = "<group>"; };
+		75E66895190B1D43B8A997CE61910EF2 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		789F892E132E7B0C3D766E2B7F9F9171 /* highlight.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = highlight.min.js; path = Pod/Assets/Highlighter/highlight.min.js; sourceTree = "<group>"; };
+		78FDD25DB5C4E785F26E0B3CECD7189C /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Pod/Classes/Theme.swift; sourceTree = "<group>"; };
+		794D3B6B81B1F135219CAACC61238008 /* HTMLUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLUtils.swift; path = Pod/Classes/HTMLUtils.swift; sourceTree = "<group>"; };
+		79C7EA0CB4D3AC36EFEA743CF49927D7 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		7A2A6D71B1A41F535EDD12C8FD56D86E /* ThemeManager+ObjectiveC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ThemeManager+ObjectiveC.swift"; path = "Sources/ThemeManager+ObjectiveC.swift"; sourceTree = "<group>"; };
+		7A4824DF73C5F962C30D8C0BE6004A07 /* agate.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = agate.min.css; path = Pod/Assets/styles/agate.min.css; sourceTree = "<group>"; };
+		7BBCF12F073BDB2E7E251A29BD3DC3F6 /* dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = dark.min.css; path = Pod/Assets/styles/dark.min.css; sourceTree = "<group>"; };
+		7C3CB90A38027BBC93BF537D65DC0AA0 /* googlecode.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = googlecode.min.css; path = Pod/Assets/styles/googlecode.min.css; sourceTree = "<group>"; };
+		7DB3C8BAA3D78E532F17CD75C7EC3704 /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E574C38B61A5EE6AC9FEC158B62E4F7 /* github.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = github.min.css; path = Pod/Assets/styles/github.min.css; sourceTree = "<group>"; };
+		7FB5771780E561F92CF7753D27250F45 /* NSWindow+ThemeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSWindow+ThemeKit.swift"; path = "Sources/NSWindow+ThemeKit.swift"; sourceTree = "<group>"; };
+		80C6DCAF8B278D4C12221150E7C67B7C /* an-old-hope.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "an-old-hope.min.css"; path = "Pod/Assets/styles/an-old-hope.min.css"; sourceTree = "<group>"; };
+		81E6E6546AFB18E4EFE7A4638C19A822 /* shades-of-purple.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "shades-of-purple.min.css"; path = "Pod/Assets/styles/shades-of-purple.min.css"; sourceTree = "<group>"; };
+		821A363BD0A6853F709719EEA7E3177D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		8583BFED9D5F040FAE805CD95F6D0F88 /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-seaside-dark.min.css"; path = "Pod/Assets/styles/atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
+		86587B321832504B77D078EA4597D712 /* macOSThemeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "macOSThemeKit-prefix.pch"; sourceTree = "<group>"; };
+		8D27E8D676E5FC0F91B5600C3D42981C /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		8DBF1010BDD3CECBE9C5CAB45ABF9C75 /* UserTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserTheme.swift; path = Sources/UserTheme.swift; sourceTree = "<group>"; };
+		902EDCD78CBF7C0B5FFA15B4957FA0D6 /* paraiso-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "paraiso-light.min.css"; path = "Pod/Assets/styles/paraiso-light.min.css"; sourceTree = "<group>"; };
+		90E722D3F87287F04F8359BD9C9C0DEB /* Pods-Bagel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bagel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		914BE4E49E3260B13E44F88F815028CA /* ocean.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = ocean.min.css; path = Pod/Assets/styles/ocean.min.css; sourceTree = "<group>"; };
+		924A512688D826C3D25FCECAB9A8D04E /* macOSThemeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "macOSThemeKit-umbrella.h"; sourceTree = "<group>"; };
+		96C41CACF87C684A6D175833B3CB1531 /* isbl-editor-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "isbl-editor-light.min.css"; path = "Pod/Assets/styles/isbl-editor-light.min.css"; sourceTree = "<group>"; };
+		983BB1087B5B35AF4906D1D4B2AF0A03 /* Pods-Bagel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bagel.debug.xcconfig"; sourceTree = "<group>"; };
+		989E794755400757C51BC2DD99A455F4 /* Pods_Bagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F0E0AC46B74F6D1A2E04FDE4752088 /* atelier-dune-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-dune-dark.min.css"; path = "Pod/Assets/styles/atelier-dune-dark.min.css"; sourceTree = "<group>"; };
+		99EA45956E26548CBF5B451C0791CA86 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		9B3522AA58AB1C611770AA1A0925CDA8 /* monokai-sublime.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "monokai-sublime.min.css"; path = "Pod/Assets/styles/monokai-sublime.min.css"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F042D8FE511C025FD93670870AEC7E4 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		A2ADC00E867B8DFEA57B163556EE190F /* github-gist.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "github-gist.min.css"; path = "Pod/Assets/styles/github-gist.min.css"; sourceTree = "<group>"; };
+		A4E6E097E01E0F410D8D8DC41E31D4DE /* school-book.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "school-book.min.css"; path = "Pod/Assets/styles/school-book.min.css"; sourceTree = "<group>"; };
+		A53046E514D5ED6D03C456CF99296026 /* Pods-Bagel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bagel-frameworks.sh"; sourceTree = "<group>"; };
+		A6C97BEC4B31606099FDC76295C91FFB /* ascetic.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = ascetic.min.css; path = Pod/Assets/styles/ascetic.min.css; sourceTree = "<group>"; };
+		A7E08A479D067FF455C766E410B732E9 /* atelier-sulphurpool-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-sulphurpool-dark.min.css"; path = "Pod/Assets/styles/atelier-sulphurpool-dark.min.css"; sourceTree = "<group>"; };
+		ABCDE7C595DCE1C98BA8F3DA8CA51FD2 /* atelier-sulphurpool-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-sulphurpool-light.min.css"; path = "Pod/Assets/styles/atelier-sulphurpool-light.min.css"; sourceTree = "<group>"; };
+		AEBB172214244F9495BFEB75CBABD691 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		B2EC9C3698840AE48D26E3B1F4BB93F6 /* Highlightr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highlightr.release.xcconfig; sourceTree = "<group>"; };
+		B56A61AB9978280C3E4B6FC6D2B91963 /* mono-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "mono-blue.min.css"; path = "Pod/Assets/styles/mono-blue.min.css"; sourceTree = "<group>"; };
+		B615A89753C2FE82FACEB1B4EBFE1861 /* NSObject+ThemeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+ThemeKit.swift"; path = "Sources/NSObject+ThemeKit.swift"; sourceTree = "<group>"; };
+		B8EAC2069A8A610E4028B0164A6B5FAF /* macOSThemeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = macOSThemeKit.modulemap; sourceTree = "<group>"; };
+		BA2148C4E6A52157F54001D447147BAF /* atelier-dune-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atelier-dune-light.min.css"; path = "Pod/Assets/styles/atelier-dune-light.min.css"; sourceTree = "<group>"; };
+		BA8FA241BB2CB28608F44BD634CE863E /* ThemeGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeGradient.swift; path = Sources/ThemeGradient.swift; sourceTree = "<group>"; };
+		BC43FCF5D5804E95EFA50CA602D9CE99 /* Thread+ThemeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Thread+ThemeKit.swift"; path = "Sources/Thread+ThemeKit.swift"; sourceTree = "<group>"; };
+		BF52DA151F7630DB18D99CFB0DCF47C2 /* Pods-Bagel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bagel-acknowledgements.plist"; sourceTree = "<group>"; };
+		C14D6D0759BB5CD3819A98DC6EC22406 /* lightfair.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = lightfair.min.css; path = Pod/Assets/styles/lightfair.min.css; sourceTree = "<group>"; };
+		C23348BBEED104B17DA5A14AEDA64ABA /* NSImage+ThemeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImage+ThemeKit.swift"; path = "Sources/NSImage+ThemeKit.swift"; sourceTree = "<group>"; };
+		C3117AA77B19B5C6A2CBC183C6F4B5A3 /* vs2015.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = vs2015.min.css; path = Pod/Assets/styles/vs2015.min.css; sourceTree = "<group>"; };
+		C3AB47E79DE62C67B2AE14F02D0FCF12 /* nord.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = nord.min.css; path = Pod/Assets/styles/nord.min.css; sourceTree = "<group>"; };
+		C54ABE63051DD2AD5520F135CD6E92D9 /* Highlightr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-umbrella.h"; sourceTree = "<group>"; };
+		C9AEE962C1E83A448D28E3EEDDFFE65C /* atom-one-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "atom-one-light.min.css"; path = "Pod/Assets/styles/atom-one-light.min.css"; sourceTree = "<group>"; };
+		CB0BF481DE009BF244B24A93B4E518DC /* androidstudio.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = androidstudio.min.css; path = Pod/Assets/styles/androidstudio.min.css; sourceTree = "<group>"; };
+		D0424C8352B2C0291EE3590B96931E8F /* Highlightr-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Highlightr-Info.plist"; sourceTree = "<group>"; };
+		D111BDBE9D7BAD9EBA6626F31AD8B8D4 /* gml.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = gml.min.css; path = Pod/Assets/styles/gml.min.css; sourceTree = "<group>"; };
+		D12596617BBB3511E55D7DEB411FE391 /* Highlightr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Highlightr-prefix.pch"; sourceTree = "<group>"; };
+		D205A3544C681FF2B0FE632B957585C8 /* codepen-embed.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "codepen-embed.min.css"; path = "Pod/Assets/styles/codepen-embed.min.css"; sourceTree = "<group>"; };
+		D2A2A9170E431A7D1D4050BFEA17B84E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		D33AFA0E808D389546A79FBE5AC49B97 /* Highlightr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Highlightr-dummy.m"; sourceTree = "<group>"; };
+		D44ED52FA3535B99537BD4DD2774BE61 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		D6A69BBE46F9827FC4894CD18D8D9048 /* monokai.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = monokai.min.css; path = Pod/Assets/styles/monokai.min.css; sourceTree = "<group>"; };
+		D874664543C66BEFAA3D1A1FC8076066 /* macOSThemeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = macOSThemeKit.release.xcconfig; sourceTree = "<group>"; };
+		DBFC344ECAB9F930EB4D86DB3C7C8841 /* NSColor+ThemeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSColor+ThemeKit.swift"; path = "Sources/NSColor+ThemeKit.swift"; sourceTree = "<group>"; };
+		DC1E08C066E288F744348836A53432CE /* Highlightr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Highlightr.modulemap; sourceTree = "<group>"; };
+		DCF6C50177BABC5F475F80AA9926B440 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E0F015F5A62620C7588E1C6437E57C7C /* macOSThemeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = macOSThemeKit.debug.xcconfig; sourceTree = "<group>"; };
+		E40A8579000B3DC5A227D8839C021C78 /* Pods-Bagel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bagel.modulemap"; sourceTree = "<group>"; };
+		E7061C017AD4506C91C97B6472306B36 /* dracula.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = dracula.min.css; path = Pod/Assets/styles/dracula.min.css; sourceTree = "<group>"; };
+		E73AE3097A914DE0CD8F6BE308CF68EE /* grayscale.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = grayscale.min.css; path = Pod/Assets/styles/grayscale.min.css; sourceTree = "<group>"; };
+		E8C33375F7307928B3B43A1FB2A82316 /* NSDictionary+UserTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDictionary+UserTheme.swift"; path = "Sources/NSDictionary+UserTheme.swift"; sourceTree = "<group>"; };
+		E906FFB1F517D9B127952B6CECA19108 /* Pods-Bagel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bagel-Info.plist"; sourceTree = "<group>"; };
+		E93AE830E25D2E3FCD5A2632A48BC63A /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		EBAD4F8EA98EAC9C893A8A0181CBE393 /* ThemeImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeImage.swift; path = Sources/ThemeImage.swift; sourceTree = "<group>"; };
+		EFCEA9AFB2325581686DF52AFBA922C4 /* solarized-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "solarized-dark.min.css"; path = "Pod/Assets/styles/solarized-dark.min.css"; sourceTree = "<group>"; };
+		EFD678D3D7F15FD8FF853C188C01542E /* a11y-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "a11y-light.min.css"; path = "Pod/Assets/styles/a11y-light.min.css"; sourceTree = "<group>"; };
+		F015889573F7F0ED3429B3252304337B /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Sources/Theme.swift; sourceTree = "<group>"; };
+		F1FEDD3D42BBEE6A9080E6A734174747 /* gruvbox-dark.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "gruvbox-dark.min.css"; path = "Pod/Assets/styles/gruvbox-dark.min.css"; sourceTree = "<group>"; };
+		F29401ADB62596BD262C0DC907B347EF /* docco.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = docco.min.css; path = Pod/Assets/styles/docco.min.css; sourceTree = "<group>"; };
+		FA09D7AA888F30CFBDA80BF9D4A529D0 /* solarized-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "solarized-light.min.css"; path = "Pod/Assets/styles/solarized-light.min.css"; sourceTree = "<group>"; };
+		FA7047BA4254B1368381EE4900C9E52A /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "tomorrow-night-blue.min.css"; path = "Pod/Assets/styles/tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
+		FB6AA411EF8A7B06E461F64457BE269E /* SystemTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemTheme.swift; path = Sources/SystemTheme.swift; sourceTree = "<group>"; };
+		FD3525F8042128FD71FC8C9255BC0D00 /* arduino-light.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = "arduino-light.min.css"; path = "Pod/Assets/styles/arduino-light.min.css"; sourceTree = "<group>"; };
+		FD4951635456D0E5DE80389E57105293 /* idea.min.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = idea.min.css; path = Pod/Assets/styles/idea.min.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3305A93ED8079D5D86E21FEDAA50B113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9318C9B4D1D5ECBA019E0E71A88BD96B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7F721D31F4DAA7F11ECBBDAEF8BCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795CB64962CB2EDC5AC8A1F300F0E847 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00F83CB6FF8EE5590C198CFCBB9EECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E833467B449C5AA8EB04A12B5674FC1 /* Cocoa.framework in Frameworks */,
+				181C81C739F806BCDD6F760FD30A01FB /* CoreServices.framework in Frameworks */,
+				ABE2CF7FE359B07D646CBBE2C5A6B147 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3481384B7BEAF30D728C2396A479411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A6F8C6BEB1258C14679DD3C88868CB /* AppKit.framework in Frameworks */,
+				BEDB97D9433996F6E7A8702A985EE359 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DD75DD28B180E7FF80BB1B8C31FDD8 /* macOSThemeKit */ = {
+			isa = PBXGroup;
+			children = (
+				255653986A133D9B58637E01817CCC1C /* Common.swift */,
+				149C3AAD705C9CF23099C7930D14A4E5 /* DarkTheme.swift */,
+				6F46F6914075674BE1A33178979EAF8B /* LightTheme.swift */,
+				2C53994CEB72503E65AFBA4FEAA6B63E /* NotificationName+ThemeKit.swift */,
+				DBFC344ECAB9F930EB4D86DB3C7C8841 /* NSColor+ThemeKit.swift */,
+				E8C33375F7307928B3B43A1FB2A82316 /* NSDictionary+UserTheme.swift */,
+				C23348BBEED104B17DA5A14AEDA64ABA /* NSImage+ThemeKit.swift */,
+				B615A89753C2FE82FACEB1B4EBFE1861 /* NSObject+ThemeKit.swift */,
+				572894BB49FB4B7EF00ABBB055F1D42E /* NSView+ThemeKit.swift */,
+				7FB5771780E561F92CF7753D27250F45 /* NSWindow+ThemeKit.swift */,
+				02C1C8B42601D55BBC49B6F67CA45D0E /* String+Substring.swift */,
+				FB6AA411EF8A7B06E461F64457BE269E /* SystemTheme.swift */,
+				F015889573F7F0ED3429B3252304337B /* Theme.swift */,
+				0B7027B19504AE8CA17CA35C5B20A6DE /* ThemeColor.swift */,
+				BA8FA241BB2CB28608F44BD634CE863E /* ThemeGradient.swift */,
+				EBAD4F8EA98EAC9C893A8A0181CBE393 /* ThemeImage.swift */,
+				2FF99DB822C7E179B772E1E589A5FABD /* ThemeManager.swift */,
+				7A2A6D71B1A41F535EDD12C8FD56D86E /* ThemeManager+ObjectiveC.swift */,
+				BC43FCF5D5804E95EFA50CA602D9CE99 /* Thread+ThemeKit.swift */,
+				8DBF1010BDD3CECBE9C5CAB45ABF9C75 /* UserTheme.swift */,
+				C2DBD14E1BB1EE4D967CDA857D34B4CE /* Support Files */,
+			);
+			path = macOSThemeKit;
+			sourceTree = "<group>";
+		};
+		186094550E5E81521EC3FF7883AD801C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				414F73628ED55EAEF653E0B2F0B93DC7 /* CocoaAsyncSocket */,
+				A1C09F7A3BED133A388D251A7F4D1C00 /* Highlightr */,
+				11DD75DD28B180E7FF80BB1B8C31FDD8 /* macOSThemeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		414F73628ED55EAEF653E0B2F0B93DC7 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				75E66895190B1D43B8A997CE61910EF2 /* GCDAsyncSocket.h */,
+				821A363BD0A6853F709719EEA7E3177D /* GCDAsyncSocket.m */,
+				E93AE830E25D2E3FCD5A2632A48BC63A /* GCDAsyncUdpSocket.h */,
+				4199DA9E788B60470DCB2AC9B21261E7 /* GCDAsyncUdpSocket.m */,
+				7F8EDEF3EC9B9C8215FF815F62243D90 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		6413526F3E3AB18DA2DBBD8AB01D0340 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				58BF0C499CEC55602E33CAB49BF6F1D8 /* AppKit.framework */,
+				7200C3A9E104B8FB460A37245767264F /* Cocoa.framework */,
+				D2A2A9170E431A7D1D4050BFEA17B84E /* CoreServices.framework */,
+				DCF6C50177BABC5F475F80AA9926B440 /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		7801907AC788B9F87EA714D57816C691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
+				7DB3C8BAA3D78E532F17CD75C7EC3704 /* Highlightr.framework */,
+				35EF954F53A87FDB15378691A8C307BE /* macOSThemeKit.framework */,
+				989E794755400757C51BC2DD99A455F4 /* Pods_Bagel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8EDEF3EC9B9C8215FF815F62243D90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F042D8FE511C025FD93670870AEC7E4 /* CocoaAsyncSocket.modulemap */,
+				D44ED52FA3535B99537BD4DD2774BE61 /* CocoaAsyncSocket-dummy.m */,
+				AEBB172214244F9495BFEB75CBABD691 /* CocoaAsyncSocket-Info.plist */,
+				79C7EA0CB4D3AC36EFEA743CF49927D7 /* CocoaAsyncSocket-prefix.pch */,
+				99EA45956E26548CBF5B451C0791CA86 /* CocoaAsyncSocket-umbrella.h */,
+				4EC69F616CF81510A5F0A1F389511CDD /* CocoaAsyncSocket.debug.xcconfig */,
+				8D27E8D676E5FC0F91B5600C3D42981C /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		9ADFA50FCAD8787F2BFDC936D051FBC3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D86A14E218B2FDF93D5B45345E008401 /* Pods-Bagel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1C09F7A3BED133A388D251A7F4D1C00 /* Highlightr */ = {
+			isa = PBXGroup;
+			children = (
+				584406C4F6851CAC94E1C0D4AE8832D9 /* CodeAttributedString.swift */,
+				742CEEFB49AB2CA7EAF614FE0EF2C69E /* Highlightr.swift */,
+				794D3B6B81B1F135219CAACC61238008 /* HTMLUtils.swift */,
+				61682281EAE185E8F70019805A09084E /* Shims.swift */,
+				78FDD25DB5C4E785F26E0B3CECD7189C /* Theme.swift */,
+				B1B1B9F02FEB1B5EDFA323BA9E05830A /* Resources */,
+				C7BEBABEACA492150C603747BA6BF4EB /* Support Files */,
+			);
+			path = Highlightr;
+			sourceTree = "<group>";
+		};
+		B1B1B9F02FEB1B5EDFA323BA9E05830A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64B8D971EF9A78CA0F37ECF06C5B8CCF /* a11y-dark.min.css */,
+				EFD678D3D7F15FD8FF853C188C01542E /* a11y-light.min.css */,
+				7A4824DF73C5F962C30D8C0BE6004A07 /* agate.min.css */,
+				80C6DCAF8B278D4C12221150E7C67B7C /* an-old-hope.min.css */,
+				CB0BF481DE009BF244B24A93B4E518DC /* androidstudio.min.css */,
+				FD3525F8042128FD71FC8C9255BC0D00 /* arduino-light.min.css */,
+				2567FAB3D3E7F321B1ABD57C4D58AF8A /* arta.min.css */,
+				A6C97BEC4B31606099FDC76295C91FFB /* ascetic.min.css */,
+				0BEDF433E7D6A00DB04ED2E67DFD5D90 /* atelier-cave-dark.min.css */,
+				3C6977306707D47AA68E3566A0EB7435 /* atelier-cave-light.min.css */,
+				98F0E0AC46B74F6D1A2E04FDE4752088 /* atelier-dune-dark.min.css */,
+				BA2148C4E6A52157F54001D447147BAF /* atelier-dune-light.min.css */,
+				644D312E5FEA53754789976A46D01A5C /* atelier-estuary-dark.min.css */,
+				61858A8D1A145A6700C5865D53774BFD /* atelier-estuary-light.min.css */,
+				04A8B49322F43A9308AF36BF708856CC /* atelier-forest-dark.min.css */,
+				17005C227F5108E19AF7C042C77174DC /* atelier-forest-light.min.css */,
+				20AB23DE6EF096A3B1B163539F93E878 /* atelier-heath-dark.min.css */,
+				546A3587DC888E3BBE9494465981C8D0 /* atelier-heath-light.min.css */,
+				206E4ADE3D3AC89E272F7D8ED64DE396 /* atelier-lakeside-dark.min.css */,
+				142B8A001F43024ADA55B0E98DCA89D5 /* atelier-lakeside-light.min.css */,
+				70B4057B388D9D3D405FDE969935CE7C /* atelier-plateau-dark.min.css */,
+				5DCC358DA5F9DF3378D6F000566C5588 /* atelier-plateau-light.min.css */,
+				4B92EBD445C62D5DBDC02057AD59529D /* atelier-savanna-dark.min.css */,
+				63C32A847A5C8018FE7C5431DFB615EA /* atelier-savanna-light.min.css */,
+				8583BFED9D5F040FAE805CD95F6D0F88 /* atelier-seaside-dark.min.css */,
+				086E747D9509B29C07ED9681012125FE /* atelier-seaside-light.min.css */,
+				A7E08A479D067FF455C766E410B732E9 /* atelier-sulphurpool-dark.min.css */,
+				ABCDE7C595DCE1C98BA8F3DA8CA51FD2 /* atelier-sulphurpool-light.min.css */,
+				57224172D4D199A009DCF14B5E3D097A /* atom-one-dark-reasonable.min.css */,
+				30C77DB67AE22D908B3914D053379C91 /* atom-one-dark.min.css */,
+				C9AEE962C1E83A448D28E3EEDDFFE65C /* atom-one-light.min.css */,
+				75516FCA891B08238CF5AE39105F3E98 /* brown-paper.min.css */,
+				D205A3544C681FF2B0FE632B957585C8 /* codepen-embed.min.css */,
+				071A8FBAEC535216B4D1B69A1C4E74FF /* color-brewer.min.css */,
+				37556AE1824D4795BB17266E1751B800 /* darcula.min.css */,
+				7BBCF12F073BDB2E7E251A29BD3DC3F6 /* dark.min.css */,
+				116809CB42618DC7B08C98425EF5C064 /* darkula.min.css */,
+				0AEF5ECA0FCC73C7F9A9E10D27311866 /* default.min.css */,
+				F29401ADB62596BD262C0DC907B347EF /* docco.min.css */,
+				E7061C017AD4506C91C97B6472306B36 /* dracula.min.css */,
+				4594322B644261686341076242EF756D /* far.min.css */,
+				00A57162F0C2E51281E78C3B2CA22CFE /* foundation.min.css */,
+				A2ADC00E867B8DFEA57B163556EE190F /* github-gist.min.css */,
+				7E574C38B61A5EE6AC9FEC158B62E4F7 /* github.min.css */,
+				D111BDBE9D7BAD9EBA6626F31AD8B8D4 /* gml.min.css */,
+				7C3CB90A38027BBC93BF537D65DC0AA0 /* googlecode.min.css */,
+				E73AE3097A914DE0CD8F6BE308CF68EE /* grayscale.min.css */,
+				F1FEDD3D42BBEE6A9080E6A734174747 /* gruvbox-dark.min.css */,
+				2D4D798AC1F889DBEA37CA4F995FBFC9 /* gruvbox-light.min.css */,
+				789F892E132E7B0C3D766E2B7F9F9171 /* highlight.min.js */,
+				4F863D2331AB3D475CC65313ACD7A05B /* hopscotch.min.css */,
+				1DBB9122A3127040264147B86CFF5504 /* hybrid.min.css */,
+				FD4951635456D0E5DE80389E57105293 /* idea.min.css */,
+				08D8E3AEB9AA7BAD8407BF21F3864944 /* ir-black.min.css */,
+				3F2EBF5095C519795E18C78F9770CFF5 /* isbl-editor-dark.min.css */,
+				96C41CACF87C684A6D175833B3CB1531 /* isbl-editor-light.min.css */,
+				3B9C2687E7169C775FF2ADBC0A09C064 /* kimbie.dark.min.css */,
+				738BAFC797FAB2A47AF0FC3E97B534C5 /* kimbie.light.min.css */,
+				C14D6D0759BB5CD3819A98DC6EC22406 /* lightfair.min.css */,
+				083C988C5579F48E787512FFB436F815 /* magula.min.css */,
+				B56A61AB9978280C3E4B6FC6D2B91963 /* mono-blue.min.css */,
+				9B3522AA58AB1C611770AA1A0925CDA8 /* monokai-sublime.min.css */,
+				D6A69BBE46F9827FC4894CD18D8D9048 /* monokai.min.css */,
+				C3AB47E79DE62C67B2AE14F02D0FCF12 /* nord.min.css */,
+				414A2C8FC1B8D2EE24FC03ED93234A3E /* obsidian.min.css */,
+				914BE4E49E3260B13E44F88F815028CA /* ocean.min.css */,
+				40AD0A8A345A657FA25665BAAC279952 /* paraiso-dark.min.css */,
+				902EDCD78CBF7C0B5FFA15B4957FA0D6 /* paraiso-light.min.css */,
+				0EC323828C229CBDF05F3EA5C555868F /* pojoaque.min.css */,
+				50F9C1545769576E318B4743F4116446 /* purebasic.min.css */,
+				4B47CA6E395169516627AE658C19203D /* qtcreator_dark.min.css */,
+				4154DA8B902C42AA1C41AC970AE93756 /* qtcreator_light.min.css */,
+				0C033B170CB669F84D0BF30B36DA470D /* railscasts.min.css */,
+				603CE3C95E13FC51BDF6B86384809E4C /* rainbow.min.css */,
+				032850D3D2DD6CF1EC5BBB1BA1775292 /* routeros.min.css */,
+				A4E6E097E01E0F410D8D8DC41E31D4DE /* school-book.min.css */,
+				81E6E6546AFB18E4EFE7A4638C19A822 /* shades-of-purple.min.css */,
+				EFCEA9AFB2325581686DF52AFBA922C4 /* solarized-dark.min.css */,
+				FA09D7AA888F30CFBDA80BF9D4A529D0 /* solarized-light.min.css */,
+				5E1AFAD3DA15344E8007E61437F0CC08 /* sunburst.min.css */,
+				FA7047BA4254B1368381EE4900C9E52A /* tomorrow-night-blue.min.css */,
+				6CE7177EE727F48799743289B3E2B9AC /* tomorrow-night-bright.min.css */,
+				11269B23D01879A6300066A5865ED0CA /* tomorrow-night-eighties.min.css */,
+				5A36E6FBDFD9A0B5721D8C531A864056 /* tomorrow-night.min.css */,
+				62404DD3C1E9BA3645C24F38D3874CD1 /* tomorrow.min.css */,
+				4039B45ED10F7F7C7905830D0CE33223 /* vs.min.css */,
+				C3117AA77B19B5C6A2CBC183C6F4B5A3 /* vs2015.min.css */,
+				5BD5CF24A6AE29C062900F6C68397AFB /* xcode.min.css */,
+				42C2A5C6F82385DC750FA945075C9248 /* xt256.min.css */,
+				4EE7787C23EC155DE39781B0803FC56C /* zenburn.min.css */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C2DBD14E1BB1EE4D967CDA857D34B4CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8EAC2069A8A610E4028B0164A6B5FAF /* macOSThemeKit.modulemap */,
+				5530D0067E2E1FEB9E338CE03096D935 /* macOSThemeKit-dummy.m */,
+				391BA750F3D8065E8CD22931F12AC945 /* macOSThemeKit-Info.plist */,
+				86587B321832504B77D078EA4597D712 /* macOSThemeKit-prefix.pch */,
+				924A512688D826C3D25FCECAB9A8D04E /* macOSThemeKit-umbrella.h */,
+				E0F015F5A62620C7588E1C6437E57C7C /* macOSThemeKit.debug.xcconfig */,
+				D874664543C66BEFAA3D1A1FC8076066 /* macOSThemeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/macOSThemeKit";
+			sourceTree = "<group>";
+		};
+		C7BEBABEACA492150C603747BA6BF4EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E08C066E288F744348836A53432CE /* Highlightr.modulemap */,
+				D33AFA0E808D389546A79FBE5AC49B97 /* Highlightr-dummy.m */,
+				D0424C8352B2C0291EE3590B96931E8F /* Highlightr-Info.plist */,
+				D12596617BBB3511E55D7DEB411FE391 /* Highlightr-prefix.pch */,
+				C54ABE63051DD2AD5520F135CD6E92D9 /* Highlightr-umbrella.h */,
+				415A07C0E9BA340F08002AA1B913ADC1 /* Highlightr.debug.xcconfig */,
+				B2EC9C3698840AE48D26E3B1F4BB93F6 /* Highlightr.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Highlightr";
+			sourceTree = "<group>";
+		};
+		CACE1D58B90C8B9C52757B827DFE6BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6413526F3E3AB18DA2DBBD8AB01D0340 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CACE1D58B90C8B9C52757B827DFE6BF4 /* Frameworks */,
+				186094550E5E81521EC3FF7883AD801C /* Pods */,
+				7801907AC788B9F87EA714D57816C691 /* Products */,
+				9ADFA50FCAD8787F2BFDC936D051FBC3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D86A14E218B2FDF93D5B45345E008401 /* Pods-Bagel */ = {
+			isa = PBXGroup;
+			children = (
+				E40A8579000B3DC5A227D8839C021C78 /* Pods-Bagel.modulemap */,
+				90E722D3F87287F04F8359BD9C9C0DEB /* Pods-Bagel-acknowledgements.markdown */,
+				BF52DA151F7630DB18D99CFB0DCF47C2 /* Pods-Bagel-acknowledgements.plist */,
+				576CD5FDF11A95FE4D62A43958AA9F2C /* Pods-Bagel-dummy.m */,
+				A53046E514D5ED6D03C456CF99296026 /* Pods-Bagel-frameworks.sh */,
+				E906FFB1F517D9B127952B6CECA19108 /* Pods-Bagel-Info.plist */,
+				07AE19FA33C4F66CD5387E410194201F /* Pods-Bagel-umbrella.h */,
+				983BB1087B5B35AF4906D1D4B2AF0A03 /* Pods-Bagel.debug.xcconfig */,
+				6A980122FE140A3515CDF07263D6E864 /* Pods-Bagel.release.xcconfig */,
+			);
+			name = "Pods-Bagel";
+			path = "Target Support Files/Pods-Bagel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		207C0EE041AF549D26086A549D747C83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C1E282E99C1DB3FDFCD473B922EAD2 /* Pods-Bagel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97938F5E95D838C7DD29D196AB87752 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746B9C316EDD28F601A99C13AEC63F24 /* Highlightr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B758054115E7B07A3DF2DED6FF795B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58B2FD12551D913C1D83769A5DCA56E /* macOSThemeKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82807D639FCFDF56A607D3970098A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */,
+				411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F2F8BE9ECE2B04C6D9CF9295316D0C1 /* macOSThemeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AA998784FAA6582616BD5612120717 /* Build configuration list for PBXNativeTarget "macOSThemeKit" */;
+			buildPhases = (
+				F7B758054115E7B07A3DF2DED6FF795B /* Headers */,
+				FD426B1AE6FDC0C48161893D8FBC6828 /* Sources */,
+				3305A93ED8079D5D86E21FEDAA50B113 /* Frameworks */,
+				6CC6DF4976AF827EC36D1A27B0C1C842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOSThemeKit;
+			productName = macOSThemeKit;
+			productReference = 35EF954F53A87FDB15378691A8C307BE /* macOSThemeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				F82807D639FCFDF56A607D3970098A87 /* Headers */,
+				4920E2F47EC0874D094992B0DD2CA9E7 /* Sources */,
+				B00F83CB6FF8EE5590C198CFCBB9EECC /* Frameworks */,
+				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0DFE582E64AE7298C59241B7B610B04 /* Highlightr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8EB4605C77C3B76FD2E28AAD11B79C /* Build configuration list for PBXNativeTarget "Highlightr" */;
+			buildPhases = (
+				C97938F5E95D838C7DD29D196AB87752 /* Headers */,
+				48D61E34622AD202227CD868C4478476 /* Sources */,
+				D3481384B7BEAF30D728C2396A479411 /* Frameworks */,
+				0DA288BE37953CC12C50EB5C94979509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Highlightr;
+			productName = Highlightr;
+			productReference = 7DB3C8BAA3D78E532F17CD75C7EC3704 /* Highlightr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF474ED92CCC9B94E7D79E4330CEA157 /* Pods-Bagel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7A6379614F3B57A5FA7111B3A977EF /* Build configuration list for PBXNativeTarget "Pods-Bagel" */;
+			buildPhases = (
+				207C0EE041AF549D26086A549D747C83 /* Headers */,
+				957A5D32E4BEE1B0A1597AB45FF106D3 /* Sources */,
+				5F7F721D31F4DAA7F11ECBBDAEF8BCCE /* Frameworks */,
+				469A5F78992C7077635050827C3234D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA61DB4C525CD4A50B76AA1BFD6798C /* PBXTargetDependency */,
+				A513E69E5E601C915F445FBD14893D06 /* PBXTargetDependency */,
+				7B348CD897A0C28CE15BCB9868C18AAC /* PBXTargetDependency */,
+			);
+			name = "Pods-Bagel";
+			productName = "Pods-Bagel";
+			productReference = 989E794755400757C51BC2DD99A455F4 /* Pods_Bagel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1210;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7801907AC788B9F87EA714D57816C691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				B0DFE582E64AE7298C59241B7B610B04 /* Highlightr */,
+				4F2F8BE9ECE2B04C6D9CF9295316D0C1 /* macOSThemeKit */,
+				BF474ED92CCC9B94E7D79E4330CEA157 /* Pods-Bagel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA288BE37953CC12C50EB5C94979509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAB4EB203A6009138A1C1E2BB7888A1 /* a11y-dark.min.css in Resources */,
+				C0FA571123133CCBB85CC5DB8A68D89B /* a11y-light.min.css in Resources */,
+				69F59DD09E155F745D9F2ABB3A64EBF7 /* agate.min.css in Resources */,
+				963C85C58CE21ACF53AF1164C41DBF44 /* an-old-hope.min.css in Resources */,
+				B22D8097FEA61CBB9A6094D4B60DC505 /* androidstudio.min.css in Resources */,
+				CD5468196E7DE88F3C6531D76F480195 /* arduino-light.min.css in Resources */,
+				F8E0A47D8491EF135AD8E3B5E54C2AD6 /* arta.min.css in Resources */,
+				1C28C1D3C9A5A148C552451C097C51F1 /* ascetic.min.css in Resources */,
+				40163CB38A022C5517CFDBD7F6CABEFF /* atelier-cave-dark.min.css in Resources */,
+				EA0C2301A8F1A0DA9BD6D299CA10080A /* atelier-cave-light.min.css in Resources */,
+				9BBCACB93C3591CC2C05F032F545CBAD /* atelier-dune-dark.min.css in Resources */,
+				BFE400F171DC60C014F13D691FD61FA8 /* atelier-dune-light.min.css in Resources */,
+				958AD0EFC163CB32EA6745A5B5E9692D /* atelier-estuary-dark.min.css in Resources */,
+				70B30C189B53A7E694253E32F1CFD909 /* atelier-estuary-light.min.css in Resources */,
+				B04A04F3D9EAE6935B55A4CB7404A43B /* atelier-forest-dark.min.css in Resources */,
+				A135726B17D46E531FF97ED1A5913B1E /* atelier-forest-light.min.css in Resources */,
+				B187C749298B8BB4253961040E4F86C1 /* atelier-heath-dark.min.css in Resources */,
+				B152AF66EB22A28C60540A313BFCD76E /* atelier-heath-light.min.css in Resources */,
+				437503877C37313F6544CB53D3209D92 /* atelier-lakeside-dark.min.css in Resources */,
+				E7E8411A877D5374B0BE09D7856FC0CF /* atelier-lakeside-light.min.css in Resources */,
+				81B150D610C43FBAA49FD85F086BE90A /* atelier-plateau-dark.min.css in Resources */,
+				C2D65EAE8886AC3A1EF396D513DFA37F /* atelier-plateau-light.min.css in Resources */,
+				89453DE5FF4129D4AEFCDB48E5193D98 /* atelier-savanna-dark.min.css in Resources */,
+				0BA6E56E894728D59DEF66A4C63D9A7A /* atelier-savanna-light.min.css in Resources */,
+				9BFAD43FAB646FB257EC1BAB5B961D6F /* atelier-seaside-dark.min.css in Resources */,
+				8D5D26A5B70AA4D55D6BE58745D76E5A /* atelier-seaside-light.min.css in Resources */,
+				A3E3A956296D2642CC84D07F65D277A5 /* atelier-sulphurpool-dark.min.css in Resources */,
+				0DC3D15F4FAA1853B7B377900BCA417E /* atelier-sulphurpool-light.min.css in Resources */,
+				F43C3A80AE7A7469CB144208F960AF5E /* atom-one-dark-reasonable.min.css in Resources */,
+				70866031BBB9398A61E0FCC5DA0E4228 /* atom-one-dark.min.css in Resources */,
+				295CFC1BD4613F4AD34DD8229EF50F93 /* atom-one-light.min.css in Resources */,
+				FDE2CCCCBC20A84591FCABA3A9A2EA0F /* brown-paper.min.css in Resources */,
+				682D476D4804A5F7BFAE75EE827D2638 /* codepen-embed.min.css in Resources */,
+				21B4CDC6FD90007EF9A2992C9C41DC49 /* color-brewer.min.css in Resources */,
+				C2C19A279E190C14972634D249E96F45 /* darcula.min.css in Resources */,
+				21E9C1635BED58B8B49774AB168CDC9D /* dark.min.css in Resources */,
+				DBBCA4EA831AE6BAAB632D098314DD05 /* darkula.min.css in Resources */,
+				CAF6C0CC4CA79C9AFB0506EC45C6E94B /* default.min.css in Resources */,
+				509AAB38C4407B8DF620D3364EE6860D /* docco.min.css in Resources */,
+				12EA1FDBC73D3E6FE5DED3A5AF6611D4 /* dracula.min.css in Resources */,
+				D25CCB428F60F230FC80C6D19DE084CF /* far.min.css in Resources */,
+				2E7CA3EAF445B41806F1C1BC057E628E /* foundation.min.css in Resources */,
+				45698778B5D965CFB9C43F683BF6625A /* github-gist.min.css in Resources */,
+				117167EFE5268CA55A50FE556EC42E9E /* github.min.css in Resources */,
+				19AF00486DE96979A194FA58C0840695 /* gml.min.css in Resources */,
+				BF1517DB55CDFFBDBA8EFD4335FB0EE1 /* googlecode.min.css in Resources */,
+				C2802A0975B9AFF772715A8BCC89128D /* grayscale.min.css in Resources */,
+				A623E240622352B0B89729F99971540A /* gruvbox-dark.min.css in Resources */,
+				A9D9D0E8198E55FF5AD536AB433F90D5 /* gruvbox-light.min.css in Resources */,
+				EBD7F5BCF2EC0163384B1D5873DCC762 /* highlight.min.js in Resources */,
+				3F5BF0A034ED0E363A5CDD05C36EA2A3 /* hopscotch.min.css in Resources */,
+				8874C6FFD6003A48E1879E3EEA1C35B1 /* hybrid.min.css in Resources */,
+				7F70002E8C0DF2BF8A9F5D47A924AD63 /* idea.min.css in Resources */,
+				5C1DB39ED6A07B9AF4F5B29B51DDD3B1 /* ir-black.min.css in Resources */,
+				5E2AC9DEBC506C976E544B0566B61DF0 /* isbl-editor-dark.min.css in Resources */,
+				1CA2D2B63B73621DBAC7CFEB380CFDF6 /* isbl-editor-light.min.css in Resources */,
+				F05E65795E43FCD2F3CAF46C36F4F132 /* kimbie.dark.min.css in Resources */,
+				C8AAAAA899223C4342B183E664284CED /* kimbie.light.min.css in Resources */,
+				69B08E1E5A144ECD1E4FF722E8ACECE3 /* lightfair.min.css in Resources */,
+				E79E4C6F654E7373059D62E4F2432C91 /* magula.min.css in Resources */,
+				9DEA816E3C0C45754C0C55721B5C5A3E /* mono-blue.min.css in Resources */,
+				80633AE38B7FFC76DE34B87A63820527 /* monokai-sublime.min.css in Resources */,
+				DA46CE544774BB49772D545061DF00D9 /* monokai.min.css in Resources */,
+				C5E4135327693EACA18256193F2DC95B /* nord.min.css in Resources */,
+				BE09CC034675464469183909970F2460 /* obsidian.min.css in Resources */,
+				0A0F1E2B7C7E54CC8635EF4371F48FE9 /* ocean.min.css in Resources */,
+				B322E14EE5D4B1F203C3C543F285C418 /* paraiso-dark.min.css in Resources */,
+				7E24A64B126B2E84349534D7D668AE30 /* paraiso-light.min.css in Resources */,
+				6C91B4F117FFA093F740F975C33CB2B8 /* pojoaque.min.css in Resources */,
+				94211506B10F74C3E3ED065E382BAB8B /* purebasic.min.css in Resources */,
+				BC995ADB8550B0B8CB8B53AC8BC643EC /* qtcreator_dark.min.css in Resources */,
+				416DDE6DA332A7F5F27538DF14390B80 /* qtcreator_light.min.css in Resources */,
+				30A1A9F011DCCB5881FB72D9C89E14A3 /* railscasts.min.css in Resources */,
+				98A56F4FB4306A4281F6426384A9F982 /* rainbow.min.css in Resources */,
+				3CAA6E5219F3997A859577B688E9365A /* routeros.min.css in Resources */,
+				6C0D9FD5DDB88A298F3C26883488E92A /* school-book.min.css in Resources */,
+				4F246508449CC33854B7E1CC61699D9D /* shades-of-purple.min.css in Resources */,
+				08EFCDAA97DF13161E4256DDC02F4DAA /* solarized-dark.min.css in Resources */,
+				48385935B0709D5AD3C97E3B251A20CF /* solarized-light.min.css in Resources */,
+				3406709367A4D069D707E6343D9B499F /* sunburst.min.css in Resources */,
+				07252E9AC17882D2B1EA4168AFCCE740 /* tomorrow-night-blue.min.css in Resources */,
+				7F3C85EBC1F3F2ECE4FF6453A3522BAC /* tomorrow-night-bright.min.css in Resources */,
+				19E9D2DD82F6AA80DB0F16BD6FB7C540 /* tomorrow-night-eighties.min.css in Resources */,
+				5958EA9310DE6034B00DFE8919916758 /* tomorrow-night.min.css in Resources */,
+				7D6D4B1D849EA06229626399F32C64E9 /* tomorrow.min.css in Resources */,
+				764C13BFA23196755AE16C23C407B1B2 /* vs.min.css in Resources */,
+				C9537AAFF97CBF25AD79A10E8A802253 /* vs2015.min.css in Resources */,
+				EDDC7DAE72472D6C48A3E3ECB654B1E6 /* xcode.min.css in Resources */,
+				945DCA340BE155923A9265A5F44FBAC7 /* xt256.min.css in Resources */,
+				42FF8F423095C1B79155779D05C792CA /* zenburn.min.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469A5F78992C7077635050827C3234D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6DF4976AF827EC36D1A27B0C1C842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D61E34622AD202227CD868C4478476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFFA7B5F6A011C8629CB7F3EC3E580B /* CodeAttributedString.swift in Sources */,
+				CFCD464D6E4B76367A35F6752630BAA3 /* Highlightr-dummy.m in Sources */,
+				475002A7B711CD996CEDD17CCAA93099 /* Highlightr.swift in Sources */,
+				3080BAC39D886FFDFEBFB19ED7467669 /* HTMLUtils.swift in Sources */,
+				AA5C32D97513834B0735E998633E5573 /* Shims.swift in Sources */,
+				6C3216186CB3EE026FD7B7E35CD715C6 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4920E2F47EC0874D094992B0DD2CA9E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */,
+				1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */,
+				6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957A5D32E4BEE1B0A1597AB45FF106D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA35085971546940E29E57437163E16 /* Pods-Bagel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD426B1AE6FDC0C48161893D8FBC6828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851CA8887588E0673A75568EBF35BCA3 /* Common.swift in Sources */,
+				AEF905BC4B6BE00498EECD43CB24A4E5 /* DarkTheme.swift in Sources */,
+				7C4456EC5A287CA752A470219B56258C /* LightTheme.swift in Sources */,
+				2E2317974A739EE7DD7D7947E6567203 /* macOSThemeKit-dummy.m in Sources */,
+				6417A4EF60DF49C9009251F590DE316B /* NotificationName+ThemeKit.swift in Sources */,
+				DC75091757AF38C5E3F3A361220B8679 /* NSColor+ThemeKit.swift in Sources */,
+				E0A063DA328CD24F40F10E3E73EE81F1 /* NSDictionary+UserTheme.swift in Sources */,
+				7F8966A5A1A75985324352D26F7C75BE /* NSImage+ThemeKit.swift in Sources */,
+				60B58C3A892A44EB44A39B84C4D1DF07 /* NSObject+ThemeKit.swift in Sources */,
+				B5A936234CA43395B99DE4EEB0AAA348 /* NSView+ThemeKit.swift in Sources */,
+				5E959D1F418B243F915263BF97910AA0 /* NSWindow+ThemeKit.swift in Sources */,
+				B94B2009745A0A54F9C273CB2FD002C7 /* String+Substring.swift in Sources */,
+				4596D3429AA10785AA80E6420FA84D84 /* SystemTheme.swift in Sources */,
+				9DA2467CA16B065DA4246B43205B0496 /* Theme.swift in Sources */,
+				16266B8CDC2405C2441F12BF437FABED /* ThemeColor.swift in Sources */,
+				43261F09C1701861AB9117155ED4FAA2 /* ThemeGradient.swift in Sources */,
+				D085D6D9A8787E53B5E144F1C35A41A0 /* ThemeImage.swift in Sources */,
+				B188F96319DB46B13DF9ADEC82168F3B /* ThemeManager+ObjectiveC.swift in Sources */,
+				48443290BFF0A6407DA16C08F28CE2CB /* ThemeManager.swift in Sources */,
+				B92B737A5B071B1F806891EBF6C2A577 /* Thread+ThemeKit.swift in Sources */,
+				01741FF78BD7229F1BBEA2FAA9D5D4B4 /* UserTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B348CD897A0C28CE15BCB9868C18AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = macOSThemeKit;
+			target = 4F2F8BE9ECE2B04C6D9CF9295316D0C1 /* macOSThemeKit */;
+			targetProxy = 6A9DD3C8299E29257FFEAF32C9D494F3 /* PBXContainerItemProxy */;
+		};
+		A513E69E5E601C915F445FBD14893D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highlightr;
+			target = B0DFE582E64AE7298C59241B7B610B04 /* Highlightr */;
+			targetProxy = 448EC224FB01D5B67D895622DA7EBD6E /* PBXContainerItemProxy */;
+		};
+		CBA61DB4C525CD4A50B76AA1BFD6798C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = A6779E2A02AA3D9EB870BF4164EB051E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		118B36857B0703CF9CE9BC56D538989D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983BB1087B5B35AF4906D1D4B2AF0A03 /* Pods-Bagel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bagel/Pods-Bagel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bagel/Pods-Bagel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BCFAF1CB86698D5415DDD6E2D0AC2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415A07C0E9BA340F08002AA1B913ADC1 /* Highlightr.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Highlightr/Highlightr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Highlightr/Highlightr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Highlightr/Highlightr.modulemap";
+				PRODUCT_MODULE_NAME = Highlightr;
+				PRODUCT_NAME = Highlightr;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		320CE3B64B2A0E68A7212D7FC56431A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F015F5A62620C7588E1C6437E57C7C /* macOSThemeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/macOSThemeKit/macOSThemeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/macOSThemeKit/macOSThemeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/macOSThemeKit/macOSThemeKit.modulemap";
+				PRODUCT_MODULE_NAME = macOSThemeKit;
+				PRODUCT_NAME = macOSThemeKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BD8FC8819961662BB719539ABB35BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D874664543C66BEFAA3D1A1FC8076066 /* macOSThemeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/macOSThemeKit/macOSThemeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/macOSThemeKit/macOSThemeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/macOSThemeKit/macOSThemeKit.modulemap";
+				PRODUCT_MODULE_NAME = macOSThemeKit;
+				PRODUCT_NAME = macOSThemeKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7440D515053ED0806561AA62F9D68F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A58E15A20FDCDA93EE8A6664F44E6A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2EC9C3698840AE48D26E3B1F4BB93F6 /* Highlightr.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Highlightr/Highlightr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Highlightr/Highlightr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Highlightr/Highlightr.modulemap";
+				PRODUCT_MODULE_NAME = Highlightr;
+				PRODUCT_NAME = Highlightr;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD2C4EB842BF6D6F9F40A00E62625E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D27E8D676E5FC0F91B5600C3D42981C /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E06AD17B87204EEF6D923A6B7B714788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC69F616CF81510A5F0A1F389511CDD /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E330C8D2F723DEC12A6166FB0953D1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A980122FE140A3515CDF07263D6E864 /* Pods-Bagel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bagel/Pods-Bagel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bagel/Pods-Bagel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF78091F2E132A0C4F200C5D32A31F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF78091F2E132A0C4F200C5D32A31F56 /* Debug */,
+				7440D515053ED0806561AA62F9D68F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06AD17B87204EEF6D923A6B7B714788 /* Debug */,
+				AD2C4EB842BF6D6F9F40A00E62625E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AA998784FAA6582616BD5612120717 /* Build configuration list for PBXNativeTarget "macOSThemeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320CE3B64B2A0E68A7212D7FC56431A0 /* Debug */,
+				5BD8FC8819961662BB719539ABB35BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8EB4605C77C3B76FD2E28AAD11B79C /* Build configuration list for PBXNativeTarget "Highlightr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCFAF1CB86698D5415DDD6E2D0AC2BB /* Debug */,
+				A58E15A20FDCDA93EE8A6664F44E6A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7A6379614F3B57A5FA7111B3A977EF /* Build configuration list for PBXNativeTarget "Pods-Bagel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B36857B0703CF9CE9BC56D538989D /* Debug */,
+				E330C8D2F723DEC12A6166FB0953D1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
